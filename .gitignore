@@ -1,1 +1,9 @@
-.DS_Store .cache .config .git .gitignore .ipynb_checkpoints .ipython .jupyter .local
+.DS_Store 
+.cache/*
+.config/* 
+.git 
+.gitignore 
+.ipynb_checkpoints/*
+.ipython/*
+.jupyter/* 
+.local/*
