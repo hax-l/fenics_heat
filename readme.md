@@ -16,7 +16,7 @@ Start a docker container (as indicated in [fenics doc](https://fenics.readthedoc
 docker run --name notebook -w /home/fenics -v $(pwd):/root/ -d -p 127.0.0.1:8888:8888 dolfinx/lab:latest 'jupyter-notebook --ip=0.0.0.0'
 ```
 
-On your browser, navigate to http://127.0.0.1:8888/ and open the jupyter notebook `Heat-Demo.ipynb`
+On your browser, navigate to http://127.0.0.1:8888/ (if necessary, copy the token provided on the last msg from the docker run cmd terminal) and open the jupyter notebook `Heat_fenicsx.ipynb`
 
 ### Problems with pyvista
 
